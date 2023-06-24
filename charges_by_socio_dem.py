@@ -1,5 +1,5 @@
 """
-Comparison of customers socio-demographic characteristics by mean of monthly charges
+Comparison of customers mean of monthly charges by socio-demographic characteristics
 """
 
 import pandas as pd
