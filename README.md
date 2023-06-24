@@ -5,7 +5,8 @@ the company's service.
 The goal is to find differences between customers who have abandoned the company's service in the past month and those
 who have not, based on socio-demographic characteristics and consumed services. The hypothesis is that
 customers who have opted out of the service and those who have not are significantly differentiated according to either
-age group, type of family, or the volume, choice, service life expectancy or other indicators of the service consumption.  
+age group, type of family, or the volume, choice, service life expectancy or other indicators of the service consumption.
+Analysis involves also finding the most profitable customers by mean of monthly charges and its relation to churn.  
   
 Used IDE: IntelliJ IDEA Community Edition 2023.1.1.  
 
@@ -16,6 +17,8 @@ Installed openpyxl.
 ### Project Structure and Functionalities  
 
 basic_data_insight.py - writes basic data insight to basic_insight.txt file.  
+charges_by_socio_dem.py - creates charts and writes data to charges_by_socio_dem.txt file about analysis of the most
+profitable customers by monthly charges.  
 
 ### Dataset
 

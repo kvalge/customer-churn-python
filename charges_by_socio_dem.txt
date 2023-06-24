@@ -1,0 +1,30 @@
+Mean of monthly charges by age group: 
+Senior_Citizen
+No     61.847441
+Yes    79.820359
+Name: Monthly_Charges, dtype: float64
+
+Mean of monthly charges by having partner: 
+Partner
+No     61.945001
+Yes    67.776264
+Name: Monthly_Charges, dtype: float64
+
+Mean of monthly charges by having dependents: 
+Dependents
+No     67.002808
+Yes    59.522156
+Name: Monthly_Charges, dtype: float64
+
+Mean of monthly charges by age group and by having partner or not: 
+Partner                No        Yes
+Senior_Citizen                      
+No              59.186605  64.736833
+Yes             76.837434  82.782461
+
+Mean of monthly charges by age group and by having dependents or not: 
+Dependents             No        Yes
+Senior_Citizen                      
+No              63.590559  58.495889
+Yes             79.606375  82.291758
+
