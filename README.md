@@ -1,29 +1,36 @@
 # Customer Churn Analysis
-Analysis of the customer base of a telecommunications company: which customers abandon the consumption of the company's
-service.
+Analysis of the customer base of a telecommunications company: which customers abandon the consumption of
+the company's service.  
 
 The goal is to find differences between customers who have abandoned the company's service in the past month and those
-who have not, based on socio-demographic characteristics and services consumed. The hypothesis is that
-customers who have opted out of the service and those who have not are significantly differentiated according to either age
-group, type of family, or the volume, choice, service life expectancy or other indicators of service consumption.  
+who have not, based on socio-demographic characteristics and consumed services. The hypothesis is that
+customers who have opted out of the service and those who have not are significantly differentiated according to either
+age group, type of family, or the volume, choice, service life expectancy or other indicators of the service consumption.  
   
-Used IDE: IntelliJ IDEA Community Edition 2023.1.1.
+Used IDE: IntelliJ IDEA Community Edition 2023.1.1.  
 
 ### Project Setup
 
-Installed openpyxl.
+Installed openpyxl.  
+
+### Project Structure and Functionalities  
+
+basic_data_insight.py - writes basic data insight to basic_insight.txt file.  
 
 ### Dataset
 
-A fictional telco company's customer churn data provided by IBM.
+A fictional telco company's customer churn data provided by IBM.  
 
-Data consist 7043 rows and 21 columns.
+The object of the data are customers who are or were consumers of the company's services. The data consists of 
+a unique CustomerID column, which is an anonymous identifier that distinguishes customers, socio-demographic 
+identifiers and purchased services, and information about whether the customer has terminated the contract with 
+the company within the past month.  
 
-Columns:  
+Description of columns:  
 LoyaltyID.  
 Customer_ID: A unique ID that identifies each customer.  
 Senior_Citizen: Indicates if the customer is 65 or older: Yes, No.  
-Partner: Indicates if the customer has partner.  
+Partner: Indicates if the customer has partner: Yes, No.  
 Dependents: Indicates if the customer lives with any dependents: Yes, No. Dependents could be children, parents,
 grandparents, etc.  
 Tenure: Indicates the total amount of months that the customer has been with the company by the end of the
