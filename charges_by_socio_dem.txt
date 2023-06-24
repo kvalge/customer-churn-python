@@ -28,3 +28,27 @@ Senior_Citizen
 No              63.590559  58.495889
 Yes             79.606375  82.291758
 
+Mean of monthly charges by churn: 
+Churn
+No     61.265124
+Yes    74.441332
+Name: Monthly_Charges, dtype: float64
+
+Mean of monthly charges by age group opted out of the service or not: 
+Senior_Citizen         No        Yes
+Churn                               
+No              58.618123  79.182057
+Yes             72.298098  80.713445
+
+Mean of monthly charges by having partner opted out of the service or not: 
+Partner         No        Yes
+Churn                        
+No       57.271856  64.831742
+Yes      71.450958  79.805232
+
+Mean of monthly charges by having dependent opted out of the service or not: 
+Dependents         No        Yes
+Churn                           
+No          63.465590  57.083744
+Yes         74.774141  72.866104
+

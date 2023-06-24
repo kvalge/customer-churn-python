@@ -78,3 +78,53 @@ plt.show()
 
 file.write("Mean of monthly charges by age group and by having dependents or not: \n{}\n"
            .format(monthly_mean_by_age_and_dependents) + "\n")
+
+
+# A bar chart of mean of monthly charges by churn
+monthly_charges_by_churn = data.groupby(['Churn'])['Monthly_Charges'].mean()
+
+ax = monthly_charges_by_churn.plot(kind='bar', figsize=(10, 6), fontsize=13);
+ax.set_alpha(0.8)
+ax.set_title("Mean of monthly charges by churn", fontsize=22)
+ax.set_xlabel("Churn")
+ax.set_ylabel("Monthly charges mean")
+plt.show()
+
+file.write("Mean of monthly charges by churn: \n{}\n"
+           .format(monthly_charges_by_churn) + "\n")
+
+
+# A plot chart of mean of monthly charges by age group and by churn
+monthly_mean_by_age_and_churn = data.groupby(['Churn', 'Senior_Citizen'])['Monthly_Charges'].mean().unstack()
+monthly_mean_by_age_and_churn.plot(
+    title="Mean of monthly charges by age group opted out of the service or not",
+    xlabel="Opted out", ylabel="Mean of monthly charges", figsize=(10, 6), fontsize=13)
+
+plt.show()
+
+file.write("Mean of monthly charges by age group opted out of the service or not: \n{}\n"
+           .format(monthly_mean_by_age_and_churn) + "\n")
+
+
+# A plot chart of mean of monthly charges by having partner and by churn
+monthly_mean_by_partner_and_churn = data.groupby(['Churn', 'Partner'])['Monthly_Charges'].mean().unstack()
+monthly_mean_by_partner_and_churn.plot(
+    title="Mean of monthly charges by having partner opted out of the service or not",
+    xlabel="Opted out", ylabel="Mean of monthly charges", figsize=(10, 6), fontsize=13)
+
+plt.show()
+
+file.write("Mean of monthly charges by having partner opted out of the service or not: \n{}\n"
+           .format(monthly_mean_by_partner_and_churn) + "\n")
+
+
+# A plot chart of mean of monthly charges by having dependents and by churn
+monthly_mean_by_dependents_and_churn = data.groupby(['Churn', 'Dependents'])['Monthly_Charges'].mean().unstack()
+monthly_mean_by_dependents_and_churn.plot(
+    title="Mean of monthly charges by having dependent opted out of the service or not",
+    xlabel="Opted out", ylabel="Mean of monthly charges", figsize=(10, 6), fontsize=13)
+
+plt.show()
+
+file.write("Mean of monthly charges by having dependent opted out of the service or not: \n{}\n"
+           .format(monthly_mean_by_dependents_and_churn) + "\n")
