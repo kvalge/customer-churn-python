@@ -9,7 +9,8 @@ age group, type of family, or the volume, choice, service life expectancy or oth
 Analysis involves also finding the most profitable customers by mean of monthly charges and its relation to churn.  
   
 
-Used libraries: Panda, Matplotlib.  
+Libraries used for analysis: Panda, Matplotlib.  
+
 Used IDE: IntelliJ IDEA Community Edition 2023.1.1.  
 
 ### Project Setup
