@@ -8,6 +8,8 @@ customers who have opted out of the service and those who have not are significa
 age group, type of family, or the volume, choice, service life expectancy or other indicators of the service consumption.
 Analysis involves also finding the most profitable customers by mean of monthly charges and its relation to churn.  
   
+
+Used libraries: Panda, Matplotlib.  
 Used IDE: IntelliJ IDEA Community Edition 2023.1.1.  
 
 ### Project Setup
