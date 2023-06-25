@@ -32,7 +32,7 @@ the company within the past month.
 Description of columns:  
 LoyaltyID.  
 Customer_ID: A unique ID that identifies each customer.  
-Senior_Citizen: Indicates if the customer is 65 or older: Yes, No.  
+Senior_Citizen: Indicates if the customer is up to 65 or older: Yes, No.  
 Partner: Indicates if the customer has partner: Yes, No.  
 Dependents: Indicates if the customer lives with any dependents: Yes, No. Dependents could be children, parents,
 grandparents, etc.  

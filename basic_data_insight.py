@@ -1,6 +1,6 @@
 import pandas as pd
 
-file = open("basic_insight.txt", "w")
+file = open("text_output/basic_insight.txt", "w")
 
 data = pd.read_excel('customer_churn.xlsx')
 
