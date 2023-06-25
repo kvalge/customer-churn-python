@@ -1,0 +1,18 @@
+A churn by age group: 
+Senior_Citizen    No  Yes
+Churn                    
+No              4508  666
+Yes             1393  476
+
+A churn by having partner: 
+Partner    No   Yes
+Churn              
+No       2441  2733
+Yes      1200   669
+
+A churn by having dependents: 
+Dependents    No   Yes
+Churn                 
+No          3390  1784
+Yes         1543   326
+
