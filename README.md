@@ -20,8 +20,10 @@ Installed openpyxl.
 ### Project Structure and Functionalities  
 
 basic_data_insight.py - writes basic data insight to basic_insight.txt file.  
-charges_by_socio_dem.py - creates charts and writes data to charges_by_socio_dem.txt file about analysis of the most
+charges_by_socio_dem.py - creates charts and writes info to charges_by_socio_dem.txt file about analysis of the most
 profitable customers by monthly charges.  
+churn_by_socio_dem.py - creates charts and writes info to churn_by_socio_dem.txt file to analyse churn by socio-dem
+characteristics.  
 
 ### Dataset
 
