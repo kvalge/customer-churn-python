@@ -2,12 +2,12 @@
 Comparison of customers mean of monthly charges by socio-demographic characteristics
 """
 
-import pandas as pd
+from data.config import data
+
 import matplotlib.pyplot as plt
 
 file = open("text_output/charges_by_socio_dem.txt", "w")
 
-data = pd.read_excel("data/customer_churn.xlsx")
 
 # A histogram of share of monthly charges
 data.hist("Monthly_Charges")

@@ -1,8 +1,6 @@
-import pandas as pd
+from data.config import data
 
 file = open("text_output/basic_insight.txt", "w")
-
-data = pd.read_excel('customer_churn.xlsx')
 
 file.write("Number of rows: {}\n".format(data.shape[0]))
 file.write("Number of columns: {}\n".format(data.shape[1]) + "\n")

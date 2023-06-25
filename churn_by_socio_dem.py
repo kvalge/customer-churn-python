@@ -2,13 +2,12 @@
 Comparison of customer churn by socio-demographic characteristics
 """
 
-import pandas as pd
+from data.config import data
+
 import matplotlib.pyplot as plt
 import numpy as np
 
 file = open("text_output/churn_by_socio_dem.txt", "w")
-
-data = pd.read_excel("data/customer_churn.xlsx")
 
 # A bar chart and data written to the file of churn count
 churn = data.groupby(["Churn"]).size()
