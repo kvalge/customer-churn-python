@@ -44,6 +44,7 @@ ax = churn_by_contract.plot(kind='bar',
                             title="Count of churn by contract",
                             xlabel="Opted out",
                             color=colors,
+                            stacked=True,
                             fontsize=13)
 ax.bar_label(ax.containers[0], size=10)
 ax.bar_label(ax.containers[1], size=10)
