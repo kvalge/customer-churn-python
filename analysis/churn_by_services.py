@@ -56,6 +56,7 @@ churn_by_phone_service = data.groupby(["Churn", "Phone_Service"]).size().unstack
 churn_by_phone_service.plot(kind='bar',
                             title="Count of churn by phone service",
                             xlabel="Opted out",
+                            stacked=True,
                             fontsize=13)
 plt.legend(title="Phone service")
 plt.show()
@@ -104,6 +105,7 @@ ax = churn_by_multiple_lines.plot(kind='bar',
                                   title="Count of churn by multiple lines",
                                   xlabel="Opted out",
                                   color=colors,
+                                  stacked=True,
                                   fontsize=13)
 ax.bar_label(ax.containers[0], size=10)
 ax.bar_label(ax.containers[1], size=10)
@@ -161,6 +163,7 @@ ax = churn_by_internet_service.plot(kind='bar',
                                     title="Count of churn by internet service",
                                     xlabel="Opted out",
                                     color=colors,
+                                    stacked=True,
                                     fontsize=13)
 ax.bar_label(ax.containers[0], size=10)
 ax.bar_label(ax.containers[1], size=10)
@@ -218,6 +221,7 @@ ax = churn_by_security.plot(kind='bar',
                             title="Count of churn by online security",
                             xlabel="Opted out",
                             color=colors,
+                            stacked=True,
                             fontsize=13)
 ax.bar_label(ax.containers[0], size=10)
 ax.bar_label(ax.containers[1], size=10)
