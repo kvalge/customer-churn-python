@@ -41,7 +41,9 @@ file.write("A churn by age group: \n{}\n".format(churn_by_age_group) + "\n")
 # Writes to the file a share of opted out customers of age of over 65
 age_array = np.array(churn_by_age_group)
 sum_age_array = np.sum(age_array)
+share_of_churn_senior_no = round((np.array(churn_by_age_group)[1][0] / sum_age_array) * 100)
 share_of_churn_senior = round((np.array(churn_by_age_group)[1][1] / sum_age_array) * 100)
+file.write("A share of opted out customers of age of under 65: {}%\n".format(share_of_churn_senior_no))
 file.write("A share of opted out customers of age of over 65: {}%\n".format(share_of_churn_senior) + "\n")
 
 # A stacked bar chart and data written to the file of churn by having partner
@@ -58,7 +60,9 @@ file.write("A churn by having partner: \n{}\n".format(churn_by_partner) + "\n")
 # Writes to the file a share of opted out customers having partner
 partner_array = np.array(churn_by_partner)
 sum_partner_array = np.sum(partner_array)
+share_of_churn_partner_no = round((np.array(churn_by_partner)[1][0] / sum_partner_array) * 100)
 share_of_churn_partner = round((np.array(churn_by_partner)[1][1] / sum_partner_array) * 100)
+file.write("A share of opted out customers not having a partner: {}%\n".format(share_of_churn_partner_no))
 file.write("A share of opted out customers having a partner: {}%\n".format(share_of_churn_partner) + "\n")
 
 # A stacked bar chart and data written to the file of churn by having partner
@@ -75,5 +79,7 @@ file.write("A churn by having dependents: \n{}\n".format(churn_by_dependents) + 
 # Writes to the file a share of opted out customers having dependents
 dependents_array = np.array(churn_by_dependents)
 sum_dependents_array = np.sum(dependents_array)
+share_of_churn_dependents_no = round((np.array(churn_by_dependents)[1][0] / sum_dependents_array) * 100)
 share_of_churn_dependents = round((np.array(churn_by_dependents)[1][1] / sum_dependents_array) * 100)
+file.write("A share of opted out customers having dependents: {}%\n".format(share_of_churn_dependents_no))
 file.write("A share of opted out customers having dependents: {}%\n".format(share_of_churn_dependents) + "\n")

@@ -11,6 +11,7 @@ Churn
 No              4508  666
 Yes             1393  476
 
+A share of opted out customers of age of under 65: 20%
 A share of opted out customers of age of over 65: 7%
 
 A churn by having partner: 
@@ -19,6 +20,7 @@ Churn
 No       2441  2733
 Yes      1200   669
 
+A share of opted out customers not having a partner: 17%
 A share of opted out customers having a partner: 9%
 
 A churn by having dependents: 
@@ -27,5 +29,6 @@ Churn
 No          3390  1784
 Yes         1543   326
 
+A share of opted out customers having dependents: 22%
 A share of opted out customers having dependents: 5%
 
