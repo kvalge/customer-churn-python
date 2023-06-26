@@ -1,6 +1,6 @@
 from data.config import data
 
-file = open("text_output/basic_insight.txt", "w")
+file = open("../text_output/basic_insight.txt", "w")
 
 file.write("Number of rows: {}\n".format(data.shape[0]))
 file.write("Number of columns: {}\n".format(data.shape[1]) + "\n")

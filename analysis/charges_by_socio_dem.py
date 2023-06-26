@@ -6,7 +6,7 @@ from data.config import data
 
 import matplotlib.pyplot as plt
 
-file = open("text_output/charges_by_socio_dem.txt", "w")
+file = open("../text_output/charges_by_socio_dem.txt", "w")
 
 
 # A histogram of share of monthly charges

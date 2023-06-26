@@ -7,7 +7,7 @@ from data.config import data
 import matplotlib.pyplot as plt
 import numpy as np
 
-file = open("text_output/churn_by_services.txt", "w")
+file = open("../text_output/churn_by_services.txt", "w")
 
 # A pie chart and data written to the file of churn count
 churn = data.groupby(["Churn"]).size()
