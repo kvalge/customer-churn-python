@@ -46,8 +46,6 @@ ax = churn_by_contract.plot(kind='bar',
                             color=colors,
                             stacked=True,
                             fontsize=13)
-ax.bar_label(ax.containers[0], size=10)
-ax.bar_label(ax.containers[1], size=10)
 ax.bar_label(ax.containers[2], size=10)
 ax.legend(["Month to month", "One year", "Two years"])
 plt.show()

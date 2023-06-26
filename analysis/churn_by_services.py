@@ -107,8 +107,6 @@ ax = churn_by_multiple_lines.plot(kind='bar',
                                   color=colors,
                                   stacked=True,
                                   fontsize=13)
-ax.bar_label(ax.containers[0], size=10)
-ax.bar_label(ax.containers[1], size=10)
 ax.bar_label(ax.containers[2], size=10)
 ax.legend(["No multiple lines", "No phone service", "Multiple lines"])
 plt.show()
@@ -165,8 +163,6 @@ ax = churn_by_internet_service.plot(kind='bar',
                                     color=colors,
                                     stacked=True,
                                     fontsize=13)
-ax.bar_label(ax.containers[0], size=10)
-ax.bar_label(ax.containers[1], size=10)
 ax.bar_label(ax.containers[2], size=10)
 ax.legend(["DSL", "Fiber optic", "No"])
 plt.show()
@@ -223,8 +219,6 @@ ax = churn_by_security.plot(kind='bar',
                             color=colors,
                             stacked=True,
                             fontsize=13)
-ax.bar_label(ax.containers[0], size=10)
-ax.bar_label(ax.containers[1], size=10)
 ax.bar_label(ax.containers[2], size=10)
 ax.legend(["No", "No internet service", "Yes"])
 plt.show()
