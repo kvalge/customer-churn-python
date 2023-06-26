@@ -1,0 +1,20 @@
+Contract
+Month-to-month    3875
+One_year          1473
+Two_year          1695
+dtype: int64
+
+A share of customers with the month to month contract: 55%
+A share of customers with the one year contract: 21%
+A share of customers with the two years contract: 24%
+
+A churn by contract: 
+Contract  Month-to-month  One_year  Two_year
+Churn                                       
+No                  2220      1307      1647
+Yes                 1655       166        48
+
+A share of opted out customers having a month to month contract: 43%
+A share of opted out customers having a one year contract: 11%
+A share of opted out customers having a two years contract: 3%
+
