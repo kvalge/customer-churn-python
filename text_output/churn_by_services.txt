@@ -1,0 +1,84 @@
+Churn
+No     5174
+Yes    1869
+dtype: int64
+
+A share of opted out customers: 27%
+
+Phone_Service
+No      682
+Yes    6361
+dtype: int64
+
+A share of customers not having phone service: 10%
+A share of customers having phone service: 90%
+
+A churn by phone service: 
+Phone_Service   No   Yes
+Churn                   
+No             512  4662
+Yes            170  1699
+
+A share of opted out customers not having a phone service: 25%
+A share of opted out customers having a phone service: 27%
+
+Multiple_Lines
+No                  3390
+No_phone_service     682
+Yes                 2971
+dtype: int64
+
+A share of customers not having multiple lines services: 48%
+A share of customers not having phone service: 10%
+A share of customers having multiple lines services: 42%
+
+A churn by multiple lines: 
+Multiple_Lines    No  No_phone_service   Yes
+Churn                                       
+No              2541               512  2121
+Yes              849               170   850
+
+A share of opted out customers not having multiple lines: 25%
+A share of opted out customers not having phone service: 25%
+A share of opted out customers having multiple lines: 29%
+
+Internet_Service
+DSL            2421
+Fiber_optic    3096
+No             1526
+dtype: int64
+
+A share of customers having dsl internet: 34%
+A share of customers having fiber internet: 44%
+A share of customers not having internet service: 22%
+
+A churn by internet service: 
+Internet_Service   DSL  Fiber_optic    No
+Churn                                    
+No                1962         1799  1413
+Yes                459         1297   113
+
+A share of opted out customers having dsl internet: 19%
+A share of opted out customers having fiber internet: 42%
+A share of opted out customers not having internet: 7%
+
+Online_Security
+No                     3498
+No_internet_service    1526
+Yes                    2019
+dtype: int64
+
+A share of customers not having online security service: 50%
+A share of customers not having internet service: 22%
+A share of customers having online security service: 29%
+
+A churn by online security service: 
+Online_Security    No  No_internet_service   Yes
+Churn                                           
+No               2037                 1413  1724
+Yes              1461                  113   295
+
+A share of opted out customers not having online security: 42%
+A share of opted out customers not having internet service: 7%
+A share of opted out customers having online security service: 15%
+

@@ -7,7 +7,8 @@ who have not, based on socio-demographic characteristics and consumed services. 
 customers who have opted out of the service and those who have not are significantly differentiated according to either
 age group, type of family, or the volume, choice, service life expectancy or other indicators of the service consumption.
 Analysis involves also finding the most profitable customers by mean of monthly charges and its relation to churn.  
-  
+
+At the moment, the analysis includes only part of the services.  
 
 Libraries used for analysis: Panda, Matplotlib.  
 
@@ -24,6 +25,8 @@ charges_by_socio_dem.py - creates charts and writes info to charges_by_socio_dem
 profitable customers by monthly charges.  
 churn_by_socio_dem.py - creates charts and writes info to churn_by_socio_dem.txt file to analyse churn by socio-dem
 characteristics.  
+churn_by_services.py - creates charts and writes info to churn_by_services_dem.txt file to analyse churn by service
+characteristics.
 
 ### Dataset
 
